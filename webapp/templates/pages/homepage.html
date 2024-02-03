@@ -1,0 +1,205 @@
+{% extends 'pages/index.html' %}
+{% load static %}
+{% block content %}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <body>
+
+            <header>
+                <div class="logo">
+                
+                </div>
+        
+                <nav>
+                    <ul>
+                           
+                        <li><a href="#"> Home </a></li> 
+                        <li><a href="#menu">About Us</a></li>
+                        <li><a href="#shop">Menu</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="//127.0.0.1:8000/cart/"> Add to Cart </a></li>
+                        <li><a href="http://127.0.0.1:8000/createCustomer/"> Order </a></li>  
+                    </div>
+                    </ul>
+                </nav>
+            </header>
+            
+<title>Homepage</title>
+<img src="{% static '/images/homepage3.jpg' %}" class="center" style="width:1863px;height:1000px;">
+<div class="button">
+<a href="#shop"><img src="/static/images/order.png" alt="HTML tutorial" style="width:400px;height:400px;"></a>
+</div>
+<title>ADS</title>
+<div class="ads" id="ads">
+    <div class="ads-header"></div>
+        <video autoplay loop muted src="/static/vid/Supplies.mp4" style="width:1862px;height:690px;" type="video/mp4">     
+            <style>
+                *{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+
+                }
+            </style>
+      </video>
+</div>
+
+<title>about</title>
+<div class="menu" id="menu">
+    <div class="menu-header">
+    <h4>ABOUT US</h4>
+<img src="{% static '/images/aboutpage.jpg' %}" class="center" style="width:1863px;height:900px;">
+<title>Menu</title>
+<div class="shop" id="shop">
+    <div class="shop-header">
+        <h3>MENU</h3>
+    
+    </div>
+    <div class="shop-box">
+        <div class="item-1">
+            <div class="card">
+                <div class="card-image">
+                    <img src="/static/images/Chocolate Cream Cold Brew.png">
+                </div>
+                <div class="card-body">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    <label class="cash">₱120</label>
+                    <h3>Chocolate Cream Cold Brew</h3>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-2">
+            <div class="card">
+                <div class="card-image">
+                    <img src="/static/images/Cinnamon Caramel Cream Cold Brew.png">
+                </div>
+                <div class="card-body">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <label class="cash">₱150</label>
+                    <h3>Cinnamon Caramel Cream Cold Brew</h3>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-3">
+            <div class="card">
+                <div class="card-image">
+                    <img src="/static/images/Cold Brew Coffee with Milk.png">
+                </div>
+                <div class="card-body">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    <label class="cash">₱100</label>
+                    <h3>Cold Brew Coffee with Milk</h3>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="/static/images/Cold Brew.png">
+                </div>
+                <div class="card-body">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <label class="cash">₱90</label>
+                    <h3>Cold Brew</h3>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-5">
+            <div class="card">
+                <div class="card-image">
+                    <img src="/static/images/Pumpkin Cream Cold Brew.png">
+                </div>
+                <div class="card-body">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    <label class="cash">₱130</label>
+                    <h3>Pumpkin Cream Cold Brew</h3>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-6">
+            <div class="card">
+                <div class="card-image">
+                    <img src="/static/images/Salted Caramel Cream Cold Brew.png">
+                </div>
+                <div class="card-body">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <label class="cash">₱120</label>
+                    <h3>Salted Caramel Cream Cold Brew</h3>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-7">
+            <div class="card">
+                <div class="card-image">
+                    <img src="/static/images/Vanilla Sweet Cream Cold Brew.png">
+                </div>
+                <div class="card-body">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    <label class="cash">₱140</label>
+                    <h3>Vanilla Sweet Cream Cold Brew</h3>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="item-8">
+            <div class="card">
+                <div class="card-image">
+                    <img src="/static/images/Cold Brew Coffee.png">
+                </div>
+                <div class="card-body">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    <label class="cash">₱100</label>
+                    <h3>Cold Brew Coffee</h3>                 
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+{% endblock %}

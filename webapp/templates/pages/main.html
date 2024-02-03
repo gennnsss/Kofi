@@ -1,0 +1,32 @@
+{% load static %}
+{% block content %}
+
+
+<h1>Total Orders: {{total_orders}}</h1>
+<table border="1" style="font-family: Helvetica,sans-serif; color: black;">>
+    <tr>
+        <th><b> ID: </b> </th>
+        <th><b> Name </b> </th>
+        <th><b> Email </b>  </th>
+        <th><b> Phone </b>  </th>
+        <th><b> Date </b>  </th>
+        <th><b> Payment </b> </th>
+        <th><b> Read </b> </th>
+        <th><b> Update </b> </th>
+        <th><b> Delete </b> </th>
+    </tr>
+ 
+    <tr>   
+        {% for order in orders %}
+        <td>{{order.customer_id}}</td>
+        <td>{{order.customer_name}}</td>
+        <td>{{order.name}}</td>
+        <td>{{order.email}}</td>
+        <td>{{order.phone}}</td>
+        <td>{{order.payment}}</td>
+    </tr>
+    {% endfor %}
+
+
+
+{% endblock %}

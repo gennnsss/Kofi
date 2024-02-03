@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\webapp",
+    "\\webapp\\static",
+    "\\webapp\\static\\js",
+    "\\webapp\\static\\sound",
+    "\\webapp\\templates",
+    "\\webapp\\templates\\pages",
+    "\\webapp\\__pycache__"
+  ],
+  "SelectedNode": "\\requirements.txt",
+  "PreviewInSolutionExplorer": false
+}
